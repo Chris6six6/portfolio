@@ -40,7 +40,7 @@ export const projects = [
 	{
 		frame: "D3, Astro, React",
 		title: "GuitarHeroes page",
-		description: "Interactive circle of fifths and scale generator, metronome, tap tempo and forum, using the D3.js and react library. GuitarHeroes is the best place to take your playing from beginner to shredder, Contains the tools I use daily in my practice as a musician and shredder guitarist.",
+		description: "Interactive circle of fifths, scale generator, metronome, tap tempo and forum, all built using D3.js and React library. GuitarHeroes is the best place to take your playing from beginner to shredder. It includes the tools I use daily in my practice as a musician and shred guitarist.",
 		url: "https://guitar-heroes.onrender.com/"
 	},
 	{
@@ -119,7 +119,7 @@ export const contact = [
 	},
 	{
 		frame: "Phone",
-		title: "555-******",
+		title: "555-*******",
 		source_name: "Github",
 		source: "https://github.com/Chris6six6",
 	},
