@@ -33,15 +33,15 @@ export const projects = [
 	},
 	{
 		frame: "D3",
-		title: "Interactive Circle of Fifths",
-		description: "Interactive circle of fifths using the D3.js library. The circle of fifths is a useful tool in music theory that displays the relationships between the 12 notes of the chromatic scale.",
-		url: "https://chris6six6.github.io/Circle-of-fifths/"
-	},
-	{
-		frame: "D3",
 		title: "Choropleth Map Visualization Project",
 		description: "choropleth map displays US counties with different fill colors representing education levels. It includes features such as a title, description, legend, and tooltip for interactive exploration of the data.",
 		url: "https://chris6six6.github.io/Choropleth-Map--D3/"
+	},
+	{
+		frame: "D3, Astro, React",
+		title: "GuitarHeroes page",
+		description: "Interactive circle of fifths and scale generator, metronome, tap tempo and forum, using the D3.js and react library. GuitarHeroes is the best place to take your playing from beginner to shredder, Contains the tools I use daily in my practice as a musician and shredder guitarist.",
+		url: "https://guitar-heroes.onrender.com/"
 	},
 	{
 		frame: "Express , Mongoose",
@@ -119,7 +119,7 @@ export const contact = [
 	},
 	{
 		frame: "Phone",
-		title: "5521874023",
+		title: "555-******",
 		source_name: "Github",
 		source: "https://github.com/Chris6six6",
 	},
