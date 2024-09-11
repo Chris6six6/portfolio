@@ -38,10 +38,10 @@ export const projects = [
 		url: "https://chris6six6.github.io/Choropleth-Map--D3/"
 	},
 	{
-		frame: "D3, Astro, React",
+		frame: "Astro, React, D3, Tailwind",
 		title: "GuitarHeroes page",
 		description: "Interactive circle of fifths, scale generator, metronome, tap tempo and forum, all built using D3.js and React library. GuitarHeroes is the best place to take your playing from beginner to shredder. It includes the tools I use daily in my practice as a musician and shred guitarist.",
-		url: "https://guitar-heroes.onrender.com/"
+		url: "https://guitarheroes.blog/"
 	},
 	{
 		frame: "Express , Mongoose",
@@ -119,7 +119,7 @@ export const contact = [
 	},
 	{
 		frame: "Phone",
-		title: "555-*******",
+		title: "555-XXXX-XXXX",
 		source_name: "Github",
 		source: "https://github.com/Chris6six6",
 	},
