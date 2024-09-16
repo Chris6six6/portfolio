@@ -67,6 +67,12 @@ export const projects = [
 		description: "Recruiters can create an account and start posting job vacancies, while interested programmers can fill out a form, upload their CV (Curriculum Vitae), and contact recruiters.",
 		url: "https://devjobs-6wph.onrender.com/"
 	},
+	{
+		frame: "Express, Postgresql, Sequelize, EJS",
+		title: "Meeti",
+		description: "Is a community-focused platform inspired by the Meetup website. Users can create an account, publish Meetis (events), and share relevant information like event details and locations via maps. The platform integrates both front-end and back-end technologies, offering a complete experience for users looking to organize or find events.",
+		url: "https://meeti-66rk.onrender.com/"
+	},
 ]
 
 // Education --> #education section
