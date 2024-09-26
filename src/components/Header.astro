@@ -1,5 +1,6 @@
 ---
-import * as CONTENT from "../pages/content"
+import * as CONTENT from "../pages/content";
+import imagen from "../../public/profile.jpg";
 ---
 
 <!-- Hero section -->
@@ -9,7 +10,7 @@ import * as CONTENT from "../pages/content"
   >
     <div class="rounded-full border-primary self-end shadow-2xl md:w-24 w-20 aspect-square ">
       <img
-        src="profile.jpg"
+        src={imagen}
         alt="profile_picture"
         class="object-cover w-full h-full rounded-full grayscale-[50] hover:grayscale-0"
       />
