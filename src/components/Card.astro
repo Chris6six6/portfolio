@@ -17,7 +17,7 @@ const { timeframe, title, description, url, tags, url_name } = Astro.props
     </div>
 
     <div class="self-start justify-self-end">
-        <a href={url} target="_blank" class="text-base text-right text-text/70 hover:text-text/80 flex justify-center items-center">
+        <a href={url}  class="text-base text-right text-text/70 hover:text-text/80 flex justify-center items-center">
             {url_name}
             {
                 url.includes("github.com") ? <Icon name="mdi:github" class="w-9 h-9 ml-2" /> :
