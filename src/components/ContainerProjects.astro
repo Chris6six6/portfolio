@@ -1,0 +1,75 @@
+---
+import * as CONTENT from "../pages/projects"
+import AccordionLayout from "../layouts/AccordionLayout.astro";
+import Card from "./Card.astro";
+
+---
+
+<ul class="shadow-box">
+
+
+    <AccordionLayout title={"Front"} icon={"logos:react"}>
+      {
+        CONTENT.front.map((item) => {
+          return (
+            <Card
+              title={item.title}
+              timeframe={item.frame}
+              description={item.description}
+              url={item.url}
+              url_name={"Open Project"}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+    
+    <AccordionLayout title={"D3"} icon={"logos:d3"}>
+      {
+        CONTENT.d3.map((item) => {
+          return (
+            <Card
+              title={item.title}
+              timeframe={item.frame}
+              description={item.description}
+              url={item.url}
+              url_name={"Open Project"}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+
+    <AccordionLayout title={"Back"} icon={"iconoir:db"}>
+      {
+        CONTENT.back.map((item) => {
+          return (
+            <Card
+              title={item.title}
+              timeframe={item.frame}
+              description={item.description}
+              url={item.url}
+              url_name={"Open Project"}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+
+    <AccordionLayout title={"Full-stack"} icon={"logos:nodejs"}>
+      {
+        CONTENT.full.map((item) => {
+          return (
+            <Card
+              title={item.title}
+              timeframe={item.frame}
+              description={item.description}
+              url={item.url}
+              url_name={"Open Project"}
+            />
+          );
+        })
+      }
+    </AccordionLayout>
+
+</ul>
