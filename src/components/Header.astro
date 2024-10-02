@@ -1,6 +1,7 @@
 ---
 import * as CONTENT from "../pages/content";
 import imagen from "../../public/profile.jpg";
+import Icon from "astro-icon";
 ---
 
 <!-- Hero section -->
@@ -16,23 +17,21 @@ import imagen from "../../public/profile.jpg";
       />
     </div>
 
-    <div class="grid text-right self-center">
+    <div class="grid text-right " >
       <h1 class="text-3xl text-text mb-2">{CONTENT.name}</h1>
-      <!-- <h3 class="text-lg text-text/90">{CONTENT.designation}</h3> -->
       <h5 class="text-sm text-text/70">{CONTENT.location}</h5>
-    </div>
-
-<!--
-    <div class="md:grid text-right self-end hidden">
       <a
         href={CONTENT.website}
         target="_blank"
-        class="hover:text-blue-300 flex items-center justify-center"
+        class="flex pt-3 justify-self-end text-blue-300 hover:text-blue-500"
       >
-        {CONTENT.website}
+        <Icon name={"icon-park-outline:unlink"} class="w-5 h-5" />CV Vitae
       </a>
     </div>
--->
+
+
+ 
+
 
   </article>
 </header>

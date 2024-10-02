@@ -2,6 +2,12 @@
 // Projects --> #project section
 export const front = [
 	{
+		frame: "Astro",
+		title: "CV Vitae",
+		description: "Este proyecto es un CV Vitae desarrollado utilizando Astro.",
+		url: "https://chris6six6.github.io/CV-Vitae/",
+	},
+	{
 		frame: "React",
 		title: "Random Quote Machine",
 		description: "This project is a random quote machine that displays a random quote and its author. You can also tweet the current quote.",

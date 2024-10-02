@@ -1,11 +1,7 @@
 // Personal Information --> #hero section
 export const name = "Cristopher Garcia Andrade"
-//export const designation = "Desarrollador backend"
 export const location = "Ciudad de Mexico"
-//export const website = "#"
-
-// About
-export const about = "";
+export const website = "https://chris6six6.github.io/CV-Vitae/"
 
 // Work Experience --> #work section
 export const work = [
