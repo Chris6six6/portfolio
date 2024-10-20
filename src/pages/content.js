@@ -64,6 +64,12 @@ export const projects = [
 		url: "https://meeti-66rk.onrender.com/"
 	},
 	{
+		frame: "Typescript, Express, Postgresql, Sequelize",
+		title: "REST API - Productos",
+		description: "RESTful API for managing products, built with Node.js and TypeScript. It's documented using Swagger and tested with Jest and Supertest.",
+		url: "https://rest-api-productos.onrender.com/docs/"
+	},
+	{
 		frame: "Projects",
 		title: "All projects",
 		description: "Todos los proyectos que he desarrollado.",
