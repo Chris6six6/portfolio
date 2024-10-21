@@ -117,7 +117,13 @@ export const back = [
         title: "File Upload Microservice",
         description: "This project is a microservice API for handling file uploads. It allows you to upload files through a form and receive details about the uploaded file in the response.",
         url: "https://file-metadata-microservice-6riw.onrender.com/"
-    }
+    },
+	{
+		frame: "Typescript, Express, Postgresql, Sequelize",
+		title: "REST API - Productos",
+		description: "RESTful API for managing products, built with Node.js and TypeScript. It's documented using Swagger and tested with Jest and Supertest.",
+		url: "https://rest-api-productos.onrender.com/docs/"
+	},
 ]
 
 export const full = [
